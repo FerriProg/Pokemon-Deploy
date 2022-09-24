@@ -1,0 +1,84 @@
+.row {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.close {
+    background-color:rgb(255, 47, 47);
+    border: 0.3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5%;
+}
+
+.createBackground {
+    background-image: url('../images/home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 100%;
+    height: 150vh;
+}
+
+.createCard{
+    color: #dddddd;
+    width: 50rem;
+    height:auto;
+    margin-left: 20%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(39, 51, 20, 0.4);
+    box-shadow: inset 8px 8px 24px 0px rgba(39, 51, 20, 0.7);
+}
+
+.rowCreate {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textAlign {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    text-align: left;
+}
+
+.pushApart {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    text-align: left;
+}
+
+.selectCss {
+    width:314px;
+    color: #0541c2;
+    font-weight: bold;
+}
+
+.errors {
+    color: rgb(255, 47, 47);
+    width: 320px;
+    word-wrap:break-word;
+    font-weight: bold;
+}
+
+.rowTypes {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+}
+
+.blue {
+    color: #0541c2;
+    font-weight: bold;
+}
